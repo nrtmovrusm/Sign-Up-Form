@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-bar">
+            <div class="logo">
+                <img src="./odin-logo.png" alt="The Odin Project Logo" width="20%">
+                <div class="logo-name">ODIN</div>
+            </div>
+            <div class="image-footer">Photo by <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA" class="photo-link"> Halie West</a>&nbsp;on&nbsp;<a href=https://unsplash.com class="photo-link">Unsplash</a></div>  
+        </div>
+
+
+        <div class="right-bar">
+            <div class="header">
+                <div class="header-text">
+                    This is not a real online service! You know you need something
+                    like this in your life to help you realize your deepest dreams. Sign up <em>now</em>
+                    to get started.
+                    <p></p>
+                    <p>You <em>know</em> you want to.</p>
+                </div>
+            </div>
+
+            <div class="form">
+                <div class="form-title">Let's do this!</div>
+
+                <form action="" method="get" class="sign-up-form">
+                    <div class="form-row">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id="first_name" name="first_name">
+                    </div>
+                    <div class="form-row">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name" name="last_name">
+                    </div>
+                    <div class="form-row">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-row">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-row">
+                        <label for="password">PASSWORD</label>
+                        <input type="text" id="password" name="password" required pattern="^[a-zA-Z0-9]+$">
+                    </div>
+                    <div class="form-row">
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <input type="text" id="confirm_password" name="confirm_password" required pattern="^[a-zA-Z0-9]+$">
+                    </div>
+                </form>
+            </div>
+
+            <div class="right-bottom">
+                <button type="submit">Create Account</button>
+                <div class="text">Already have an account? <a href="" class="login-link">Log in</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

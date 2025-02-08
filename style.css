@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url('norse-font/norse-bold-webfont.woff2') format('woff2'),
+         url('norse-font/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 100vh;
+}
+
+.left-bar {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-image: url("./leaf-background.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    font-family: "norsebold";
+    font-size: 6vw;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 160px 0px;
+}
+
+.image-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    font-size: 10px;
+    color: lightgray;
+    padding: 10px;
+}
+
+.right-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F9FAFB;
+
+}
+
+.header {
+    font-family: "Arial";
+    font-weight: 600;
+    padding: 20px 40px;
+}
+
+.header-text {
+    width: 80%;
+}
+
+.form-title {
+    font-family: "Arial";
+    font-weight: 600;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 40px;
+    gap: 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    width: 150px;
+    height: 1em;
+    padding: 5px 10px;
+    margin: 0;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+}
+
+form {
+    display: flex;
+    gap: 20px 50px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.right-bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    gap: 20px;
+}
+
+button {
+    width: 160px;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.text {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(75, 75, 75);
+}
+
+input:focus {
+    outline-style: none;
+    box-shadow: none;
+    border-color: blue;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2)
+}
+
+input:invalid {
+    outline-style: none;
+    box-shadow: none;
+    border-color: red;
+}
+
+.photo-link:visited {
+    color: inherit;
+}
+
+.photo-link{
+    color: inherit;
+}
+
+.login-link {
+    color: #596D48;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-link:visited {
+    text-decoration: none;
+}
